@@ -9,6 +9,7 @@ import { FormComponent } from './routes/components/form/form.component';
 import { IncomeComponent } from './routes/components/income/income.component';
 import { ExpensesComponent } from './routes/components/expenses/expenses.component';
 import { FooterComponent } from './routes/components/footer/footer.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FooterComponent } from './routes/components/footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
