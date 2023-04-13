@@ -22,19 +22,19 @@
     "lib": [
       "ES2022",
       "dom"
-    ]
-  },
-  "paths": {
-    "@core": ["app/core"],
-    "@core/_": ["app/core/_"],
-    "@data": ["app/data"],
-    "@data/_": ["app/data/_"],
-    "@routes": ["app/routes"],
-    "@routes/_": ["app/routes/_"],
-    "@shared": ["app/shared"],
-    "@shared/_": ["app/shared/_"],
-    "@env": ["environments"],
-    "@env/_": ["environments/_"]
+    ],
+    "paths": {
+      "@core": ["app/core"],
+      "@core/_": ["app/core/_"],
+      "@data": ["app/data"],
+      "@data/_": ["app/data/_"],
+      "@routes": ["app/routes"],
+      "@routes/_": ["app/routes/_"],
+      "@shared": ["app/shared"],
+      "@shared/_": ["app/shared/_"],
+      "@env": ["environments"],
+      "@env/_": ["environments/_"]
+    },  
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
