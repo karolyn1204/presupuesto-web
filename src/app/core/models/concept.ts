@@ -1,7 +1,7 @@
 interface ConceptRequired {
     operation: string;
     description: string;
-    value: string;
+    value: number;
 }
 
 interface ConceptOptionals{
